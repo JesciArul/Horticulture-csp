@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Week 8-Activity Log</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #fcfcfb;
+    }
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 10px 20px;
+      position: relative;
+    }
+    .logo {
+      position: absolute;
+      left: 20px;
+      width: 120px;
+    }
+    .header-text {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .header-text h1 {
+      color: red;
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .sub {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .affiliations {
+      font-size: 15px;
+      color: #000;
+      margin-top: 5px;
+      line-height: 1.6;
+    }
+    .affiliations span {
+      font-weight: bold;
+    }
+    nav {
+      background-color: #0b0066;
+      padding: 12px 0;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      list-style: none;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: rgb(240, 245, 234);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .activitylog-section {
+      padding: 40px;
+      
+      color: rgb(3, 1, 1);
+      font-size:18px;
+    }
+    
+    .activitylog-section h2 {
+      color: #0855faf6;
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .activitylog-section h3 {
+      color: #031806c2;
+      font-size: 35px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .activitylog-section p {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+    .section-title {
+      color: #2600ff;
+      font-weight: bold;
+      font-size: 30px;
+      margin-top: 30px;
+    }
+    .images {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0;
+      margin:0 30px;
+    }
+    .images img {
+      width: 300px;
+      border-radius: 6px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    @media screen and (max-width: 768px) {
+      .overlay h1 {
+        font-size: 36px;
+      }
+      .yellow {
+        font-size: 18px;
+      }
+      .header-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .logo {
+        position: static;
+        margin-bottom: 10px;
+      }
+      .images {
+        flex-direction: column;
+        align-items: center;
+      }
+       
+    
+    }
+    table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  font-size: 18px;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+}
+td {
+  text-align: center;
+}
+
+th {
+  background-color: #b8afaf;
+  text-align: center;
+}
+.button-container {
+  text-align: center;
+  margin: 30px 0;
+}
+.button-container button {
+  padding: 10px 20px;
+  background-color: #0a58ca;
+  color: rgb(245, 243, 243);
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.button-container button:hover {
+  background-color: #084298;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <img src="logo.png" alt="College Logo" class="logo">
+      <div class="header-text">
+        <h1>GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY</h1>
+        <p class="sub">A unit of USHODAYA EDUCATIONAL SOCIETY</p>
+        <p class="affiliations">
+          <span>Approved by AICTE, New Delhi & Permanently Affiliated to JNTUA, Ananthapuram</span><br>
+          <span>NAAC 'A' Grade Accredited Institution, An ISO 9001:2015 certified Institution</span><br>
+          <span>Recognized under Sec. 2(f) & 12(B) of UGC Act, 1956</span><br>
+          <span>3rd Mile, Bombay Highway, Gangavaram(V), Kovur(M), SPSR Nellore(Dt) 524137</span>
+        </p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="abstract.html">ABSTRACT</a></li>
+        <li><a href="introduction.html">INTRODUCTION</a></li>
+        <li><a href="practices.html">PRACTICES</a></li>
+        <li><a href="activitylog.html">ACTIVITY LOG</a></li>
+        <li><a href="surveypictures.html">SURVEY PICTURES</a></li>
+        <li><a href="questionnaire.html">QUESTIONNAIRE</a></li>
+        <li><a href="conclusion.html">CONCLUSION</a></li>
+        <li><a href="members.html">MEMBERS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="activitylog-section">
+    
+      <h2>DETIALED REPORT</h2>
+      <h3>Week 8-Activities</h3>
+        
+  <table>
+    <tr>
+      <th>DAY</th>
+      <th>ACTIVITY</th>
+    </tr>
+    <tr><td>Day-1</td><td>Preparation of complete document.</td></tr>
+    <tr><td>Day-2</td><td>Preparation of complete document.</td></tr>
+    <tr><td>Day-3</td><td>Preparation of complete document.</td></tr>
+    <tr><td>Day-4</td><td>Preparation of complete document.</td></tr>
+    <tr><td>Day-5</td><td>Preparation of complete document.</td></tr>
+    <tr><td>Day-6</td><td>Preparation of complete document.</td></tr>
+    
+  </table>
+
+
+  <div class="button-container">
+    <div class="button-container">
+  <button onclick="window.location.href='activity7.html'">← Previous</button>
+  
+
+      
+    </div>
+  </section>
+</body>
+</html>
